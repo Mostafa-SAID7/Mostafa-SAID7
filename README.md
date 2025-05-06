@@ -7,7 +7,7 @@ I'm a passionate software developer with a strong interest in **web development*
 ## 📊 GitHub Insights
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=Mostafa-SAID7&theme=radical" alt="GitHub Activity Graph" />
+  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=Mostafa-SAID7&theme=radical"/>
 </p>
 
 <p align="center">
