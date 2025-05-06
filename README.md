@@ -9,7 +9,9 @@ I'm a passionate software developer with a strong interest in **web development*
 <p align="center">
    <img src="https://github-readme-activity-graph.cyclic.app/graph?username=Mostafa-SAID7&theme=radical" alt="GitHub Activity Graph" />
 </p>
-
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mostafa-SAID7&theme=radical" alt="GitHub Streak" />
+</p>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Mostafa-SAID7&show_icons=true&theme=radical" height="165" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mostafa-SAID7&layout=compact&theme=radical" height="165" />
