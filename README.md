@@ -4,6 +4,12 @@ I'm a passionate software developer with a strong interest in **web development*
 
 ---
 
+## 📈 GitHub Stats
+
+![Mostafa's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mostafa-SAID7&show_icons=true&theme=radical)
+
+---
+
 ## 🛠️ Tech Stack
 
 ### 💻 Languages  
@@ -52,17 +58,12 @@ I actively contribute to open-source projects. Here are a couple of my favorites
 
 ---
 
-## 📈 GitHub Stats
-
-![Mostafa's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mostafa-SAID7&show_icons=true&theme=radical)
-
----
-
 ## 📫 Let's Connect
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mostafa.said@example.com)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mostafa-said/)  
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mostafa.said@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mostafa-said/)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/Mostafa_SAID7)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100067794330732)
 
 ---
 
