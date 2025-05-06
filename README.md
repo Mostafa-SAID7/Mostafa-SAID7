@@ -4,9 +4,11 @@ I'm a passionate software developer with a strong interest in **web development*
 
 ---
 
-## 📈 GitHub Stats
+## 📊 GitHub Insights
 
-![Mostafa's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mostafa-SAID7&show_icons=true&theme=radical)
+![Mostafa's GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=Mostafa-SAID7&theme=radical)
+
+![Mostafa's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mostafa-SAID7&layout=compact&theme=radical)
 
 ---
 
