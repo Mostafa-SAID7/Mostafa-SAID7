@@ -6,9 +6,14 @@ I'm a passionate software developer with a strong interest in **web development*
 
 ## 📊 GitHub Insights
 
-![Mostafa's GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=Mostafa-SAID7&theme=radical)
+<p align="center">
+  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=Mostafa-SAID7&theme=radical" alt="GitHub Activity Graph" />
+</p>
 
-![Mostafa's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mostafa-SAID7&layout=compact&theme=radical)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Mostafa-SAID7&show_icons=true&theme=radical" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mostafa-SAID7&layout=compact&theme=radical" height="165" />
+</p>
 
 ---
 
