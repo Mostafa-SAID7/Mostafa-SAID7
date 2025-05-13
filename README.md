@@ -2,13 +2,6 @@
 
 I'm a passionate software engineer focused on clean code, problem-solving, and building efficient systems.
 
-## 🚀 Skills
-
-- 💻 Languages: C#, JavaScript, SQL
-- 🌐 Web: ASP.NET, React
-- 🛠 Tools: Git, Docker, Postman
-- 📦 Databases: SQL Server, MongoDB
-
 ## 📊 GitHub Stats
 
 ![Mostafa's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mostafa-SAID7&show_icons=true&theme=tokyonight)
@@ -26,26 +19,6 @@ I'm a passionate software engineer focused on clean code, problem-solving, and b
 - 🐦 [Twitter](https://twitter.com/mostafa41226132)
 - 🎨 [Dribbble](https://dribbble.com/M_sSaid)
 - 📘 [Facebook](https://www.facebook.com/profile.php?id=100067794330732)
-
----
-Thanks for stopping by! ⭐ Feel free to check out my projects and get in touch!
-
-# 👋 Hi there, I'm Mostafa!
-
-I'm a passionate software developer with a strong interest in **web development**, **API design**, and **open-source contributions**. I love working with modern frameworks and tools to build robust, user-focused applications.
-
----
-
-## 📊 GitHub Insights
-
-<p align="center">
-   <img src="https://github-readme-activity-graph.cyclic.app/graph?username=Mostafa-SAID7&theme=radical" alt="GitHub Activity Graph" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mostafa-SAID7&show_icons=true&theme=radical" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mostafa-SAID7&layout=compact&theme=radical" height="165" />
-</p>
 
 ---
 
@@ -113,6 +86,4 @@ I actively contribute to open-source projects. Here are a couple of my favorites
 - 🌍 Launch a cloud-native full-stack application
 
 ---
-
-Thanks for stopping by! 😊  
-![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=Mostafa-SAID7.Mostafa-SAID7)
+Thanks for stopping by! ⭐ Feel free to check out my projects and get in touch!
