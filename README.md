@@ -1,3 +1,35 @@
+# 👋 Hello, I'm Mostafa Said!
+
+I'm a passionate software engineer focused on clean code, problem-solving, and building efficient systems.
+
+## 🚀 Skills
+
+- 💻 Languages: C#, JavaScript, SQL
+- 🌐 Web: ASP.NET, React
+- 🛠 Tools: Git, Docker, Postman
+- 📦 Databases: SQL Server, MongoDB
+
+## 📊 GitHub Stats
+
+![Mostafa's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mostafa-SAID7&show_icons=true&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mostafa-SAID7&layout=compact&theme=tokyonight)
+
+## 📈 Activity Graph
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Mostafa-SAID7&theme=github-compact)
+
+## 📫 Connect with Me
+
+- 🌐 [Portfolio](https://msaid-portfolio.web.app/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/mostafa-said-595648316)
+- 🐦 [Twitter](https://twitter.com/mostafa41226132)
+- 🎨 [Dribbble](https://dribbble.com/M_sSaid)
+- 📘 [Facebook](https://www.facebook.com/profile.php?id=100067794330732)
+
+---
+Thanks for stopping by! ⭐ Feel free to check out my projects and get in touch!
+
 # 👋 Hi there, I'm Mostafa!
 
 I'm a passionate software developer with a strong interest in **web development**, **API design**, and **open-source contributions**. I love working with modern frameworks and tools to build robust, user-focused applications.
