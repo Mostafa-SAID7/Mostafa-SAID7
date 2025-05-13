@@ -4,9 +4,10 @@ I'm a passionate software engineer focused on clean code, problem-solving, and b
 
 ## 📊 GitHub Stats
 
-![Mostafa's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mostafa-SAID7&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mostafa-SAID7&layout=compact&theme=tokyonight)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Mostafa-SAID7&show_icons=true&theme=tokyonight" alt="Mostafa's GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mostafa-SAID7&layout=compact&theme=tokyonight" alt="Top Languages" height="180"/>
+</p>
 
 ## 📈 Activity Graph
 
