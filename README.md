@@ -12,14 +12,6 @@ I'm a passionate software engineer focused on clean code, problem-solving, and b
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Mostafa-SAID7&theme=github-compact)
 
-## 📫 Connect with Me
-
-- 🌐 [Portfolio](https://msaid-portfolio.web.app/)
-- 💼 [LinkedIn](https://www.linkedin.com/in/mostafa-said-595648316)
-- 🐦 [Twitter](https://twitter.com/mostafa41226132)
-- 🎨 [Dribbble](https://dribbble.com/M_sSaid)
-- 📘 [Facebook](https://www.facebook.com/profile.php?id=100067794330732)
-
 ---
 
 ## 🛠️ Tech Stack
@@ -61,15 +53,6 @@ I'm a passionate software engineer focused on clean code, problem-solving, and b
 
 ---
 
-## 👨‍💻 Open Source Contributions
-
-I actively contribute to open-source projects. Here are a couple of my favorites:
-
-- [🔗 Project 1](https://github.com/Mostafa-SAID7/project1) — Brief description of what it does  
-- [🔗 Project 2](https://github.com/Mostafa-SAID7/project2) — Brief description of what it does
-
----
-
 ## 📫 Let's Connect
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mostafa.said@example.com)
@@ -86,4 +69,5 @@ I actively contribute to open-source projects. Here are a couple of my favorites
 - 🌍 Launch a cloud-native full-stack application
 
 ---
+
 Thanks for stopping by! ⭐ Feel free to check out my projects and get in touch!
