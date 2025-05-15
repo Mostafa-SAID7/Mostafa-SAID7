@@ -63,7 +63,7 @@ I'm a passionate software engineer focused on clean code, problem-solving, and b
 
 ---
 
-## 🎯 {{YEAR}} Goals
+## 🎯 My Goals for 2025
 
 - ✅ Contribute to impactful open-source projects  
 - 🚀 Deploy production-ready APIs with Swagger & .NET  
