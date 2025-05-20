@@ -89,10 +89,9 @@
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mostafa-SAID7&show_icons=true&theme=tokyonight" alt="Mostafa's GitHub Stats" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mostafa-SAID7&layout=compact&theme=tokyonight" alt="Top Languages" height="180"/>
-</p>
+For detailed and up-to-date GitHub statistics, check out my dedicated stats page:
+
+[➡️ View My GitHub Stats](./GITHUB_STATS.md)
 
 ## 📈 GitHub Activity
 
