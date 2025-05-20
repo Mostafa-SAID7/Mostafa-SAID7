@@ -109,16 +109,22 @@
 </table>
 
 ---
+
 <table>
   <tr>
     <td width="50%" align="center">
-      <h3> 📊 GitHub Stats</h3>
-      For detailed and up-to-date GitHub statistics, check out my dedicated stats page:
-      [➡️ View My GitHub Stats](./GITHUB_STATS.md)
+      <h3>📊 GitHub Stats</h3>
+      <p>For detailed and up-to-date GitHub statistics, check out my dedicated stats page:</p>
+      <a href="./GITHUB_STATS.md" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/View-GitHub%20Stats-blue?style=for-the-badge&logo=github" alt="View GitHub Stats"/>
+      </a>
     </td>
     <td width="50%" align="center">
-      <h3> 📈 GitHub Activity</h3>
-      See my detailed activity graph in the [Activity Graph section](ACTIVITY_GRAPH.md).
+      <h3>📈 GitHub Activity</h3>
+      <p>See my detailed activity graph in the Activity Graph section:</p>
+      <a href="./ACTIVITY_GRAPH.md" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/View-Activity%20Graph-green?style=for-the-badge&logo=github" alt="View Activity Graph"/>
+      </a>
     </td>
   </tr>
 </table>
