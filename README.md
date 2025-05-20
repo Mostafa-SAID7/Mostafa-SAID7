@@ -1,6 +1,37 @@
-# 👋 Hello, I'm Mostafa Said!
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <h3>🧊 Mostafa Said</h3>
+      <p><strong>Software Engineer</strong></p>
+    </td>
+    <td align="center" width="33%">
+      <h3>🧊 Bio</h3>
+      <p>Hi there, I'm Mostafa! I am a passionate developer with a keen interest in web development, data science, and open-source contributions.</p>
+    </td>
+    <td align="center" width="33%">
+      <h3>🧊 Connect with Me</h3>
+      <p>
+        <a href="https://www.linkedin.com/in/mostafa-said-595648316" target="_blank">
+          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+        </a>
+        <a href="https://twitter.com/mostafa41226132" target="_blank">
+          <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" alt="Twitter"/>
+        </a>
+        <a href="https://dribbble.com/M_sSaid" target="_blank">
+          <img src="https://img.shields.io/badge/Dribbble-EA4C89?style=flat&logo=dribbble&logoColor=white" alt="Dribbble"/>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100067794330732" target="_blank">
+          <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook"/>
+        </a>
+        <a href="https://msaid-portfolio.web.app/" target="_blank">
+          <img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=google-chrome&logoColor=white" alt="Portfolio"/>
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
 
-I'm a passionate software engineer focused on clean code, problem-solving, and building efficient systems.
+---
 
 ## 📊 GitHub Stats
 
