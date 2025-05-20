@@ -16,7 +16,7 @@ I'm a passionate software engineer focused on clean code, problem-solving, and b
 ---
 
 ## 🧊 Future Tech Stack
-
+```
 <table>
   <tr>
     <td>
@@ -62,7 +62,7 @@ I'm a passionate software engineer focused on clean code, problem-solving, and b
     </td>
   </tr>
 </table>
-
+```
 
 
 ---
