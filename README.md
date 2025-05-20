@@ -24,8 +24,11 @@
     <a href="https://twitter.com/mostafa41226132" target="_blank">
       <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" />
     </a>
-    <a href="https://dribbble.com/M_sSaid" target="_blank">
-      <img src="https://img.shields.io/badge/Dribbble-EA4C89?style=flat&logo=dribbble&logoColor=white" />
+    <a href="https://dev.to/mostafa_samir_fe0bbfde587" target="_blank">
+      <img src="https://img.shields.io/badge/DEV.to-0A0A0A?style=flat&logo=dev.to&logoColor=white" />
+    </a>
+        <a href="https://stackoverflow.com/users/21488881/mostafa-said" target="_blank">
+      <img src="https://img.shields.io/badge/Stack%20Overflow-FE7A16?style=flat&logo=stackoverflow&logoColor=white" />
     </a>
     <a href="https://www.facebook.com/profile.php?id=100067794330732" target="_blank">
       <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white" />
