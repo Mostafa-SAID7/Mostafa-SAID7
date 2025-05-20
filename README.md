@@ -27,6 +27,12 @@
         <a href="https://www.facebook.com/profile.php?id=100067794330732" target="_blank">
       <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white" />
     </a>
+        <a href="mailto:m.ssaid356@gmail.com" target="_blank">
+      <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" />
+    </a>
+        <a href="https://api.whatsapp.com/send?phone=20167358073" target="_blank">
+      <img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white" />
+    </a>
     <a href="https://dev.to/mostafa_samir_fe0bbfde587" target="_blank">
       <img src="https://img.shields.io/badge/DEV.to-0A0A0A?style=flat&logo=dev.to&logoColor=white" />
     </a>
