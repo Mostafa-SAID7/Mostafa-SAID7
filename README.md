@@ -87,18 +87,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-For detailed and up-to-date GitHub statistics, check out my dedicated stats page:
-
-[➡️ View My GitHub Stats](./GITHUB_STATS.md)
-
-## 📈 GitHub Activity
-
-See my detailed activity graph in the [Activity Graph section](ACTIVITY_GRAPH.md).
-
----
-
 <table align="center" width="100%" cellpadding="10">
   <tr>
     <td align="left" width="50%" valign="top">
@@ -116,6 +104,21 @@ See my detailed activity graph in the [Activity Graph section](ACTIVITY_GRAPH.md
         <li>🚀 Deploy production-ready APIs with Swagger & .NET</li>
         <li>🌍 Launch a cloud-native full-stack application</li>
       </ul>
+    </td>
+  </tr>
+</table>
+
+---
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <h3> 📊 GitHub Stats</h3>
+      For detailed and up-to-date GitHub statistics, check out my dedicated stats page:
+      [➡️ View My GitHub Stats](./GITHUB_STATS.md)
+    </td>
+    <td width="50%" align="center">
+      <h3> 📈 GitHub Activity</h3>
+      See my detailed activity graph in the [Activity Graph section](ACTIVITY_GRAPH.md).
     </td>
   </tr>
 </table>
