@@ -97,20 +97,16 @@
 <table align="center" width="100%" cellpadding="10">
   <tr>
     <td align="center" width="50%" valign="top">
-
       ## 🌱 Currently Learning
       - Advanced React and Angular concepts  
       - Clean architecture & design patterns in .NET  
       - Cloud deployment on Azure and AWS
-
     </td>
     <td align="center" width="50%" valign="top">
-
       ## 🎯 My Goals for 2025
       - ✅ Contribute to impactful open-source projects  
       - 🚀 Deploy production-ready APIs with Swagger & .NET  
       - 🌍 Launch a cloud-native full-stack application
-
     </td>
   </tr>
 </table>
