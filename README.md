@@ -38,6 +38,7 @@
 </table>
 
 ---
+
 ## 🧊 Future Tech Stack
 
 <table> <tr> <td>
