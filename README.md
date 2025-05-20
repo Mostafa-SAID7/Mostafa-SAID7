@@ -1,11 +1,9 @@
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/89887484?v=4" width="150" height="150" style="border-radius: 50%;" alt="Mostafa Said Avatar"/>
-</p>
 <table>
   <tr>
     <td align="center" width="33%">
       <h3>🧊 Mostafa Said</h3>
       <p><strong>Software Engineer</strong></p>
+      <img src="https://readme-typing-svg.herokuapp.com/?lines=Passionate+Developer;Open+Source+Contributor;Always+Learning...&center=true&color=00F&width=200&height=25" alt="Typing SVG">
     </td>
     <td align="center" width="33%">
       <h3>🧊 Bio</h3>
@@ -15,19 +13,19 @@
       <h3>🧊 Connect with Me</h3>
       <p>
         <a href="https://www.linkedin.com/in/mostafa-said-595648316" target="_blank">
-          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-        </a>
+          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+        </a><br/>
         <a href="https://twitter.com/mostafa41226132" target="_blank">
-          <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" alt="Twitter"/>
-        </a>
+          <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+        </a><br/>
         <a href="https://dribbble.com/M_sSaid" target="_blank">
-          <img src="https://img.shields.io/badge/Dribbble-EA4C89?style=flat&logo=dribbble&logoColor=white" alt="Dribbble"/>
-        </a>
+          <img src="https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white"/>
+        </a><br/>
         <a href="https://www.facebook.com/profile.php?id=100067794330732" target="_blank">
-          <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook"/>
-        </a>
+          <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
+        </a><br/>
         <a href="https://msaid-portfolio.web.app/" target="_blank">
-          <img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=google-chrome&logoColor=white" alt="Portfolio"/>
+          <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white"/>
         </a>
       </p>
     </td>
