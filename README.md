@@ -1,3 +1,9 @@
+<h1 align="center">👋 Welcome to My GitHub Profile!</h1>
+<p align="center">I'm glad you're here — explore my work, connect with me, and let's build something amazing together! 🚀</p>
+
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/89887484?v=4" width="150" height="150" style="border-radius: 50%;" alt="Mostafa Said Avatar"/>
+</p>
 <table>
   <tr>
     <td align="center" width="33%">
