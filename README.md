@@ -104,13 +104,6 @@
     <li>Clean architecture & design patterns in .NET</li>
     <li>Cloud deployment on Azure and AWS</li>
   </ul>
-</p>
-
----
-
-## 🎯 My Goals for 2025
-
-<p align="center">
   <ul style="display: inline-block; text-align: left;">
     <li>✅ Contribute to impactful open-source projects</li>
     <li>🚀 Deploy production-ready APIs with Swagger & .NET</li>
