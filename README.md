@@ -2,37 +2,38 @@
 <p align="center">I'm glad you're here — explore my work, connect with me, and let's build something amazing together! 🚀</p>
 <table>
   <tr>
-    <td align="center" width="33%">
-      <h3>🧊 Mostafa Said</h3>
-      <p><strong>Software Engineer</strong></p>
+    <td align="center" width="40%">
+      <h1>🧊 Mostafa Said</h1>
+      <h3><strong>Software Engineer</strong></h3>
       <img src="https://readme-typing-svg.herokuapp.com/?lines=Passionate+Developer;Open+Source+Contributor;Always+Learning...&center=true&color=00F&width=200&height=25" alt="Typing SVG">
+      <div>
       <a href="https://drive.google.com/file/d/1jAaDa4N3iwhY-jFQpy81rn6YNNsqgN_g/view" target="_blank">
     <img src="https://img.shields.io/badge/Download_CV-PDF-red?style=for-the-badge&logo=adobeacrobat&logoColor=white" alt="Download CV"/>
-  </a>
+  </a></div>
     </td>
-    <td align="center" width="33%">
-      <h3>🧊 Bio</h3>
+    <td align="center" width="40%">
+      <h3>🧊 About My</h3>
       <p>Hi there, I'm Mostafa! I am a passionate developer with a keen interest in web development, data science, and open-source contributions.</p>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="20%">
       <h3>🧊 Connect with Me</h3>
       <p>
-        <a href="https://www.linkedin.com/in/mostafa-said-595648316" target="_blank">
-          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-        </a><br/>
-        <a href="https://twitter.com/mostafa41226132" target="_blank">
-          <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
-        </a><br/>
-        <a href="https://dribbble.com/M_sSaid" target="_blank">
-          <img src="https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white"/>
-        </a><br/>
-        <a href="https://www.facebook.com/profile.php?id=100067794330732" target="_blank">
-          <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
-        </a><br/>
-        <a href="https://msaid-portfolio.web.app/" target="_blank">
-          <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white"/>
-        </a>
-      </p>
+    <a href="https://www.linkedin.com/in/mostafa-said-595648316" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
+    </a>
+    <a href="https://twitter.com/mostafa41226132" target="_blank">
+      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" />
+    </a>
+    <a href="https://dribbble.com/M_sSaid" target="_blank">
+      <img src="https://img.shields.io/badge/Dribbble-EA4C89?style=flat&logo=dribbble&logoColor=white" />
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=100067794330732" target="_blank">
+      <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white" />
+    </a>
+    <a href="https://msaid-portfolio.web.app/" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=google-chrome&logoColor=white" />
+    </a>
+</p>
     </td>
   </tr>
 </table>
