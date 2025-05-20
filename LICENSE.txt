@@ -1,10 +1,6 @@
-# 📄 MIT License
-
----
+📄 MIT License
 
 **Copyright © 2025 [Mostafa Said](mailto:m.ssaid356@gmail.com)**
-
----
 
 Permission is hereby granted, **free of charge**, to any person obtaining a copy  
 of this software and associated documentation files (the "Software"), to deal  
@@ -22,14 +18,10 @@ in the Software without restriction, including without limitation the rights to:
 and to permit persons to whom the Software is furnished to do so,  
 **subject to the following conditions**:
 
----
-
-## 📌 Conditions
+📌 Conditions
 
 The above copyright notice and this permission notice  
 shall be included in all copies or substantial portions of the Software.
-
----
 
 ## ⚠️ Disclaimer
 
@@ -45,15 +37,11 @@ whether in an action of contract, tort, or otherwise,
 arising from, out of, or in connection with the Software  
 or the use or other dealings in the Software.
 
----
-
-## 🧾 Summary
+🧾 Summary
 
 - 📅 Year: **2025**  
 - 👤 Author: **Mostafa Said**  
 - 📧 Contact: [m.ssaid356@gmail.com](mailto:m.ssaid356@gmail.com)  
 - 🔐 License Type: [MIT](https://opensource.org/licenses/MIT)
-
----
 
 _This license lets people do almost anything they want with your code — as long as they include your original copyright and license._
