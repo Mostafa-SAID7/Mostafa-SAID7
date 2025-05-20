@@ -31,6 +31,59 @@
 <canvas id="contributionChart" width="800" height="200"></canvas>
 
 <script>
+  const fetch = require('node-fetch');
+
+const username = 'Mostafa-SAID7';
+const token = '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';  // Put your token here securely (do NOT commit this)
+
+async function fetchRepos() {
+  let repos = [];
+  let page = 1;
+  while (true) {
+    const res = await fetch(`https://api.github.com/users/${username}/repos?per_page=100&page=${page}`, {
+      headers: { Authorization: `token ${token}` }
+    });
+    const data = await res.json();
+    if (!data.length) break;
+    repos = repos.concat(data);
+    page++;
+  }
+  return repos;
+}
+
+async function fetchCommits(repo) {
+  let commits = [];
+  let page = 1;
+  while (true) {
+    const res = await fetch(`https://api.github.com/repos/${username}/${repo}/commits?per_page=100&page=${page}`, {
+      headers: { Authorization: `token ${token}` }
+    });
+    const data = await res.json();
+    if (!data.length || data.message === "Not Found") break;
+    commits = commits.concat(data);
+    page++;
+  }
+  return commits;
+}
+
+async function main() {
+  const repos = await fetchRepos();
+  const commitDatesCount = {};
+
+  for (const repo of repos) {
+    const commits = await fetchCommits(repo.name);
+    commits.forEach(commit => {
+      const date = commit.commit.author.date.split('T')[0];
+      commitDatesCount[date] = (commitDatesCount[date] || 0) + 1;
+    });
+  }
+
+  console.log(commitDatesCount);
+  // You can save this to a JSON file or pass to your Chart.js graph
+}
+
+main().catch(console.error);
+
   const ctx = document.getElementById('contributionChart').getContext('2d');
 
   // Sample data: commits per day (last 30 days)
