@@ -1,0 +1,19 @@
+{
+  "name": "mostafa-said7-main",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">👋 Welcome to My GitHub Profile!</h1> <p align=\"center\">I'm glad you're here — explore my work, connect with me, and let's build something amazing together! 🚀</p> <table>   <tr>     <td align=\"center\" width=\"33%\">       <h3>🧊 Mostafa Said</h3>       <p><strong>Software Engineer</strong></p>       <img src=\"https://readme-typing-svg.herokuapp.com/?lines=Passionate+Developer;Open+Source+Contributor;Always+Learning...&center=true&color=00F&width=200&height=25\" alt=\"Typing SVG\">       <a href=\"https://drive.google.com/file/d/1jAaDa4N3iwhY-jFQpy81rn6YNNsqgN_g/view\" target=\"_blank\">     <img src=\"https://img.shields.io/badge/Download_CV-PDF-red?style=for-the-badge&logo=adobeacrobat&logoColor=white\" alt=\"Download CV\"/>   </a>     </td>     <td align=\"center\" width=\"33%\">       <h3>🧊 Bio</h3>       <p>Hi there, I'm Mostafa! I am a passionate developer with a keen interest in web development, data science, and open-source contributions.</p>     </td>     <td align=\"center\" width=\"33%\">       <h3>🧊 Connect with Me</h3>       <p>         <a href=\"https://www.linkedin.com/in/mostafa-said-595648316\" target=\"_blank\">           <img src=\"https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white\"/>         </a><br/>         <a href=\"https://twitter.com/mostafa41226132\" target=\"_blank\">           <img src=\"https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white\"/>         </a><br/>         <a href=\"https://dribbble.com/M_sSaid\" target=\"_blank\">           <img src=\"https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white\"/>         </a><br/>         <a href=\"https://www.facebook.com/profile.php?id=100067794330732\" target=\"_blank\">           <img src=\"https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white\"/>         </a><br/>         <a href=\"https://msaid-portfolio.web.app/\" target=\"_blank\">           <img src=\"https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white\"/>         </a>       </p>     </td>   </tr> </table>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Mostafa Said",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
