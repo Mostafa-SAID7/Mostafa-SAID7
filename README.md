@@ -94,22 +94,26 @@
 
 ---
 
----
+<table align="center" width="100%" cellpadding="10">
+  <tr>
+    <td align="center" width="50%" valign="top">
 
-## 🌱 Currently Learning
+      ## 🌱 Currently Learning
+      - Advanced React and Angular concepts  
+      - Clean architecture & design patterns in .NET  
+      - Cloud deployment on Azure and AWS
 
-<p align="center">
-  <ul style="display: inline-block; text-align: left;">
-    <li>Advanced React and Angular concepts</li>
-    <li>Clean architecture & design patterns in .NET</li>
-    <li>Cloud deployment on Azure and AWS</li>
-  </ul>
-  <ul style="display: inline-block; text-align: left;">
-    <li>✅ Contribute to impactful open-source projects</li>
-    <li>🚀 Deploy production-ready APIs with Swagger & .NET</li>
-    <li>🌍 Launch a cloud-native full-stack application</li>
-  </ul>
-</p>
+    </td>
+    <td align="center" width="50%" valign="top">
+
+      ## 🎯 My Goals for 2025
+      - ✅ Contribute to impactful open-source projects  
+      - 🚀 Deploy production-ready APIs with Swagger & .NET  
+      - 🌍 Launch a cloud-native full-stack application
+
+    </td>
+  </tr>
+</table>
 
 ---
 
