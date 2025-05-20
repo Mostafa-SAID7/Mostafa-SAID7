@@ -6,6 +6,9 @@
       <h3>🧊 Mostafa Said</h3>
       <p><strong>Software Engineer</strong></p>
       <img src="https://readme-typing-svg.herokuapp.com/?lines=Passionate+Developer;Open+Source+Contributor;Always+Learning...&center=true&color=00F&width=200&height=25" alt="Typing SVG">
+      <a href="https://drive.google.com/file/d/1jAaDa4N3iwhY-jFQpy81rn6YNNsqgN_g/view" target="_blank">
+    <img src="https://img.shields.io/badge/Download_CV-PDF-red?style=for-the-badge&logo=adobeacrobat&logoColor=white" alt="Download CV"/>
+  </a>
     </td>
     <td align="center" width="33%">
       <h3>🧊 Bio</h3>
@@ -35,20 +38,6 @@
 </table>
 
 ---
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mostafa-SAID7&show_icons=true&theme=tokyonight" alt="Mostafa's GitHub Stats" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mostafa-SAID7&layout=compact&theme=tokyonight" alt="Top Languages" height="180"/>
-</p>
-
-## 📈 Activity Graph
-
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Mostafa-SAID7&theme=github-compact)
-
----
-
 ## 🧊 Future Tech Stack
 
 <table> <tr> <td>
@@ -90,6 +79,18 @@
 </td>
 </tr>
 </table>
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Mostafa-SAID7&show_icons=true&theme=tokyonight" alt="Mostafa's GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mostafa-SAID7&layout=compact&theme=tokyonight" alt="Top Languages" height="180"/>
+</p>
+
+## 📈 Activity Graph
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Mostafa-SAID7&theme=github-compact)
 
 ---
 
@@ -118,4 +119,4 @@
 
 ---
 
-Thanks for stopping by! ⭐ Feel free to check out my projects and get in touch!
+<p align="center"><strong>⭐ Thanks for stopping by! Feel free to check out my projects and get in touch! ⭐</strong></p>
