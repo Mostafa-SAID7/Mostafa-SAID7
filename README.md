@@ -46,10 +46,10 @@
     <td width="25%" valign="top">
       <h3>🧠 Languages</h3>
       <ul>
-        <li>🔷 C#</li>
-        <li>💜 PHP</li>
-        <li>🐍 Python</li>
-        <li>✨ JavaScript</li>
+        <img src="https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
       </ul>
     </td>
     <td width="25%" valign="top">
