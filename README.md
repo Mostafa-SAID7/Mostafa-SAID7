@@ -94,9 +94,9 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mostafa-SAID7&layout=compact&theme=tokyonight" alt="Top Languages" height="180"/>
 </p>
 
-## 📈 Activity Graph
+## 📈 GitHub Activity
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Mostafa-SAID7&theme=github-compact)
+See my detailed activity graph in the [Activity Graph section](ACTIVITY_GRAPH.md).
 
 ---
 
