@@ -4,7 +4,7 @@
   <tr>
     <td align="center" width="40%">
       <h1>🧊 Mostafa Said</h1>
-      <h3><strong>Software Engineer</strong></h3>
+      <h2><strong>Software Engineer</strong></h2>
       <img src="https://readme-typing-svg.herokuapp.com/?lines=Passionate+Developer;Open+Source+Contributor;Always+Learning...&center=true&color=00F&width=200&height=25" alt="Typing SVG">
       <div>
       <a href="https://drive.google.com/file/d/1jAaDa4N3iwhY-jFQpy81rn6YNNsqgN_g/view" target="_blank">
@@ -12,11 +12,11 @@
   </a></div>
     </td>
     <td align="center" width="40%">
-      <h3>🧊 About My</h3>
+      <h2>🧊 About My</h2>
       <p>Hi there, I'm Mostafa! I am a passionate developer with a keen interest in web development, data science, and open-source contributions.</p>
     </td>
     <td align="center" width="20%">
-      <h3>🧊 Connect with Me</h3>
+      <h2>🧊 Connect with Me</h2>
       <p>
     <a href="https://www.linkedin.com/in/mostafa-said-595648316" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
@@ -54,7 +54,7 @@
 <table>
   <tr>
     <td width="25%" valign="top">
-      <h3>🧠 Languages</h3>
+      <h2>🧠 Languages</h2>
       <ul>
         <img src="https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white"/>
   <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white"/>
@@ -63,7 +63,7 @@
       </ul>
     </td>
     <td width="25%" valign="top">
-      <h3>🌐 Web Development</h3>
+      <h2>🌐 Web Development</h2>
       <ul>
         <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"/>
@@ -74,7 +74,7 @@
       </ul>
     </td>
     <td width="25%" valign="top">
-      <h3>🗃️ Databases</h3>
+      <h2>🗃️ Databases</h2>
       <ul>
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white"/>
@@ -83,7 +83,7 @@
       </ul>
     </td>
     <td width="25%" valign="top">
-      <h3>🛠️ Tools</h3>
+      <h2>🛠️ Tools</h2>
       <ul>
         <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
@@ -123,14 +123,14 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <h3>📊 GitHub Stats</h3>
+      <h2>📊 GitHub Stats</h2>
       <p>For detailed and up-to-date GitHub statistics, check out my dedicated stats page:</p>
       <a href="./GITHUB_STATS.md" target="_blank" rel="noopener noreferrer">
         <img src="https://img.shields.io/badge/View-GitHub%20Stats-blue?style=for-the-badge&logo=github" alt="View GitHub Stats"/>
       </a>
     </td>
     <td width="50%" align="center">
-      <h3>📈 GitHub Activity</h3>
+      <h2>📈 GitHub Activity</h2>
       <p>See my detailed activity graph in the Activity Graph section:</p>
       <a href="./ACTIVITY_GRAPH.md" target="_blank" rel="noopener noreferrer">
         <img src="https://img.shields.io/badge/View-Activity%20Graph-green?style=for-the-badge&logo=github" alt="View Activity Graph"/>
