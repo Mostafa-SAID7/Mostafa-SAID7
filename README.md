@@ -54,7 +54,7 @@
 <table>
   <tr>
     <td width="25%" valign="top">
-      <h2>🧠 Languages</h2>
+      <h2 align="center" >🧠 Languages</h2>
       <ul>
         <img src="https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white"/>
   <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white"/>
@@ -63,7 +63,7 @@
       </ul>
     </td>
     <td width="25%" valign="top">
-      <h2>🌐 Web Development</h2>
+      <h2 align="center" >🌐 Web Development</h2>
       <ul>
         <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"/>
@@ -74,7 +74,7 @@
       </ul>
     </td>
     <td width="25%" valign="top">
-      <h2>🗃️ Databases</h2>
+      <h2 align="center" >🗃️ Databases</h2>
       <ul>
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white"/>
@@ -83,7 +83,7 @@
       </ul>
     </td>
     <td width="25%" valign="top">
-      <h2>🛠️ Tools</h2>
+      <h2 align="center" >🛠️ Tools</h2>
       <ul>
         <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
@@ -100,7 +100,7 @@
 <table align="center" width="100%" cellpadding="10">
   <tr>
     <td align="left" width="50%" valign="top">
-      <h2>🌱 Currently Learning:</h2>
+      <h2 align="center" >🌱 Currently Learning:</h2>
       <ul style="display: inline-block; margin-left: 10px;">
         <li>Advanced React and Angular concepts</li>
         <li>Clean architecture & design patterns in .NET</li>
@@ -108,7 +108,7 @@
       </ul>
     </td>
     <td align="left" width="50%" valign="top">
-      <h2>🎯 My Goals for 2025:</h2>
+      <h2 align="center" >🎯 My Goals for 2025:</h2>
       <ul style="display: inline-block; margin-left: 10px;">
         <li>✅ Contribute to impactful open-source projects</li>
         <li>🚀 Deploy production-ready APIs with Swagger & .NET</li>
