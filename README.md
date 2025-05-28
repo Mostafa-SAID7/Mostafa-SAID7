@@ -100,7 +100,7 @@
 <table align="center" width="100%" cellpadding="10">
   <tr>
     <td align="left" width="50%" valign="top">
-      <h2 align="center" >🌱 Currently Learning:</h2>
+      <h2 align="center" >🌱 Currently Learning</h2>
       <ul style="display: inline-block; margin-left: 10px;">
         <li>Advanced React and Angular concepts</li>
         <li>Clean architecture & design patterns in .NET</li>
@@ -108,7 +108,7 @@
       </ul>
     </td>
     <td align="left" width="50%" valign="top">
-      <h2 align="center" >🎯 My Goals for 2025:</h2>
+      <h2 align="center" >🎯 My Goals for 2025</h2>
       <ul style="display: inline-block; margin-left: 10px;">
         <li>✅ Contribute to impactful open-source projects</li>
         <li>🚀 Deploy production-ready APIs with Swagger & .NET</li>
