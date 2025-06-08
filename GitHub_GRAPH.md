@@ -4,42 +4,36 @@
 
   <!-- GitHub Followers -->
   <a href="https://github.com/Mostafa-SAID7" title="GitHub Followers">
-    <img src="https://img.shields.io/github/followers/Mostafa-SAID7?style=social" alt="GitHub Followers" />
-  </a>
-
-  <!-- Total Public Repositories -->
-  <a href="https://github.com/Mostafa-SAID7?tab=repositories" title="Public Repositories">
-  <img src="https://img.shields.io/badge/Public%20Repos-9-2d3748?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27" alt="Public Repositories" />
+    <img src="https://img.shields.io/github/followers/Mostafa-SAID7?style=for-the-badge&logo=github" alt="GitHub Followers" />
   </a>
 
   <!-- Total Stars across all repos -->
   <a href="https://github.com/Mostafa-SAID7?tab=stars" title="Total Stars">
-    <img src="https://img.shields.io/github/stars/Mostafa-SAID7?style=social" alt="GitHub Stars" />
+    <img src="https://img.shields.io/github/stars/Mostafa-SAID7?style=for-the-badge&logo=github" alt="GitHub Stars" />
   </a>
 
- <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap/commits" title="Commit Activity - BankAccount-OOP-Encap">
-  <img src="https://img.shields.io/github/commit-activity/y/Mostafa-SAID7/BankAccount-OOP-Encap" alt="Commit Activity" />
-</a>
+  <!-- Commit Activity for BankAccount-OOP-Encap repo -->
+  <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap/commits" title="Commit Activity - BankAccount-OOP-Encap">
+    <img src="https://img.shields.io/github/commit-activity/y/Mostafa-SAID7/BankAccount-OOP-Encap?style=for-the-badge&logo=github" alt="Commit Activity" />
+  </a>
 
 </p>
 
 <p align="center">
 
- <!-- Top Language (from your BankAccount-OOP-Encap repo) -->
-<a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap" title="Top Language in BankAccount-OOP-Encap">
-<img src="https://img.shields.io/badge/top%20language-C%23-blue?style=for-the-badge&logo=csharp" alt="Top Language" />
-</a>
+  <!-- Top Language (BankAccount-OOP-Encap) -->
+  <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap" title="Top Language in BankAccount-OOP-Encap">
+    <img src="https://img.shields.io/github/languages/top/Mostafa-SAID7/BankAccount-OOP-Encap?style=for-the-badge&logo=programming" alt="Top Language" />
+  </a>
 
-
- <!-- Largest Repository Size (BankAccount-OOP-Encap) -->
-<a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap" title="Repository Size">
-  <img src="https://img.shields.io/github/repo-size/Mostafa-SAID7/BankAccount-OOP-Encap" alt="Repo Size" />
-</a>
-
+  <!-- Largest Repository Size (BankAccount-OOP-Encap) -->
+  <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap" title="Repository Size">
+    <img src="https://img.shields.io/github/repo-size/Mostafa-SAID7/BankAccount-OOP-Encap?style=for-the-badge&logo=github" alt="Repo Size" />
+  </a>
 
   <!-- Code Size of BankAccount-OOP-Encap -->
   <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap" title="Code Size">
-    <img src="https://img.shields.io/github/languages/code-size/Mostafa-SAID7/BankAccount-OOP-Encap" alt="Code Size" />
+    <img src="https://img.shields.io/github/languages/code-size/Mostafa-SAID7/BankAccount-OOP-Encap?style=for-the-badge&logo=github" alt="Code Size" />
   </a>
 
 </p>
@@ -48,30 +42,26 @@
 
   <!-- Last Commit BankAccount-OOP-Encap -->
   <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap/commits/main" title="Last Commit">
-    <img src="https://img.shields.io/github/last-commit/Mostafa-SAID7/BankAccount-OOP-Encap" alt="Last Commit" />
+    <img src="https://img.shields.io/github/last-commit/Mostafa-SAID7/BankAccount-OOP-Encap?style=for-the-badge&logo=github" alt="Last Commit" />
   </a>
 
   <!-- Closed Issues BankAccount-OOP-Encap -->
   <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap/issues?q=is%3Aissue+is%3Aclosed" title="Closed Issues">
-    <img src="https://img.shields.io/github/issues-closed/Mostafa-SAID7/BankAccount-OOP-Encap" alt="Closed Issues" />
+    <img src="https://img.shields.io/github/issues-closed/Mostafa-SAID7/BankAccount-OOP-Encap?style=for-the-badge&logo=github" alt="Closed Issues" />
   </a>
 
   <!-- Open Issues BankAccount-OOP-Encap -->
   <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap/issues" title="Open Issues">
-    <img src="https://img.shields.io/github/issues/Mostafa-SAID7/BankAccount-OOP-Encap" alt="Open Issues" />
+    <img src="https://img.shields.io/github/issues/Mostafa-SAID7/BankAccount-OOP-Encap?style=for-the-badge&logo=github" alt="Open Issues" />
   </a>
 
-<!-- Total Forks (manual badge, styled) -->
-
-  <img src="https://img.shields.io/badge/total%20forks-4-blue?style=for-the-badge&logo=github" alt="Total Forks Across All Repos" />
-
-
-
-
-
-
+  <!-- Total Forks (manual badge, styled) -->
+  <a href="https://github.com/Mostafa-SAID7?tab=repositories" title="Total Forks Across All Repos">
+    <img src="https://img.shields.io/badge/total%20forks-4-blue?style=for-the-badge&logo=github" alt="Total Forks" />
+  </a>
 
 </p>
+
 
 <p align="center">
 
