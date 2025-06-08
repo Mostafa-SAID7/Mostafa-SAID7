@@ -1,3 +1,59 @@
+# Hi, I'm Mostafa 👋
+
+## 📊 GitHub Stats
+
+<!-- GitHub Readme Stats: General stats -->
+[![Mostafa's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mostafa-SAID7&show_icons=true&theme=dark)](https://github.com/Mostafa-SAID7)
+
+<!-- GitHub Readme Stats: Top languages -->
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mostafa-SAID7&layout=donut&theme=dark)](https://github.com/Mostafa-SAID7)
+
+<!-- GitHub Readme Stats: Streak -->
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Mostafa-SAID7&theme=dark&hide_border=true)
+
+---
+
+## 🏆 GitHub Profile Trophy (Achievements)
+
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Mostafa-SAID7&theme=darkhub&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
+
+---
+
+## 📈 GitHub Activity Graph (Commit Heatmap)
+
+![Mostafa's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Mostafa-SAID7&theme=github-compact&hide_border=true)
+
+---
+
+## 🛡️ Dynamic Badges (Shields.io)
+
+![GitHub followers](https://img.shields.io/github/followers/Mostafa-SAID7?style=social)
+![GitHub repo stars](https://img.shields.io/github/stars/Mostafa-SAID7/your-repo?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Mostafa-SAID7/your-repo?style=social)
+![GitHub issues](https://img.shields.io/github/issues/Mostafa-SAID7/your-repo?style=social)
+
+---
+## 📊 GitHub Analytics
+![GitHub Contributions](https://github.com/Mostafa-SAID7.png?size=150)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Mostafa-SAID7&theme=github)
+![GitHub repo stars](https://img.shields.io/github/stars/Mostafa-SAID7/your-repo)
+![GitHub forks](https://img.shields.io/github/forks/Mostafa-SAID7/your-repo)
+![GitHub issues](https://img.shields.io/github/issues/Mostafa-SAID7/your-repo)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mostafa-SAID7&layout=pie&theme=dark)
+
+
+![Mostafa’s GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mostafa-SAID7&show_icons=true&theme=dark)
+
+![Mostafa's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mostafa-SAID7&layout=donut&theme=dark)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Mostafa-SAID7&theme=dark&hide_border=true)
+
+![Mostafa's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Mostafa-SAID7&theme=github-compact)
+
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Mostafa-SAID7&theme=darkhub&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
+
+
+
 <h1 align="center">👋 Welcome to My GitHub Profile!</h1>
 <p align="center">I'm glad you're here — explore my work, connect with me, and let's build something amazing together! 🚀</p>
 <table>
