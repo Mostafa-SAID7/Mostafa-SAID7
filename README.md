@@ -122,7 +122,7 @@ This work is licensed under the [MIT License](https://opensource.org/licenses/MI
     <tr>
       <td align="center" valign="middle">
         <!-- Profile Visitor Count (stable with CountAPI) -->
-  <img src="https://visitor-badge.glitch.me/badge?page_id=Mostafa-SAID7.Mostafa-SAID7&left_color=green&right_color=red" alt="Visitor Count" />
+<img src="https://count.getloli.com/get/@Mostafa-SAID7.readme?theme=rule34" alt="Profile Visitor Count" />
       </td>
       <td align="center" valign="middle">
         <!-- GitHub Streak -->
