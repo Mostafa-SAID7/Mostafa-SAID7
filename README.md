@@ -2,7 +2,6 @@
 <p align="center">
   I'm glad you're here — explore my work, connect with me, and let's build something amazing together! 🚀
 </p>
-
 <table align="center" width="100%" cellpadding="20">
   <tr>
     <td align="center" width="33%">
@@ -15,12 +14,10 @@
         </a>
       </div>
     </td>
-
     <td align="center" width="34%">
       <h2>🧊 About Me</h2>
       <p>Hi there, I'm Mostafa! A passionate developer with interests in web development, data science, and open-source contributions.</p>
     </td>
-
     <td align="center" width="33%">
       <h2>🧊 Connect with Me</h2>
       <p>
