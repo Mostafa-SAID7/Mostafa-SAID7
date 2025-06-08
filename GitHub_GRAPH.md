@@ -1,6 +1,16 @@
 
 ## 📊 GitHub Analytics
-
+<p align="center">
+  <a href="https://github.com/Mostafa-SAID7">
+    <img src="https://img.shields.io/github/followers/Mostafa-SAID7?style=social" alt="GitHub Followers" />
+  </a>
+  <a href="https://github.com/Mostafa-SAID7/your-repo">
+    <img src="https://img.shields.io/github/stars/Mostafa-SAID7/your-repo?style=social" alt="GitHub Stars" />
+  </a>
+  <a href="https://github.com/Mostafa-SAID7/your-repo">
+    <img src="https://img.shields.io/github/forks/Mostafa-SAID7/your-repo?style=social" alt="GitHub Forks" />
+  </a>
+</p>
 <div align="center">
 
 <table>
@@ -31,18 +41,5 @@
 
 </div>
 
----
 
-## 🛡️ Dynamic Badges
 
-<p align="center">
-  <a href="https://github.com/Mostafa-SAID7">
-    <img src="https://img.shields.io/github/followers/Mostafa-SAID7?style=social" alt="GitHub Followers" />
-  </a>
-  <a href="https://github.com/Mostafa-SAID7/your-repo">
-    <img src="https://img.shields.io/github/stars/Mostafa-SAID7/your-repo?style=social" alt="GitHub Stars" />
-  </a>
-  <a href="https://github.com/Mostafa-SAID7/your-repo">
-    <img src="https://img.shields.io/github/forks/Mostafa-SAID7/your-repo?style=social" alt="GitHub Forks" />
-  </a>
-</p>
