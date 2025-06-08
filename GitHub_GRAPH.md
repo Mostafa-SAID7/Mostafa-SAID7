@@ -31,10 +31,11 @@
 </a>
 
 
-  <!-- Largest Repository Size (BankAccount-OOP-Encap) -->
-  <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap" title="Repository Size">
-    <img src="https://img.shields.io/github/repo-size/Mostafa-SAID7/BankAccount-OOP-Encap" alt="Repo Size" />
-  </a>
+ <!-- Largest Repository Size (BankAccount-OOP-Encap) -->
+<a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap" title="Repository Size">
+  <img src="https://img.shields.io/github/repo-size/Mostafa-SAID7/BankAccount-OOP-Encap" alt="Repo Size" />
+</a>
+
 
   <!-- Code Size of BankAccount-OOP-Encap -->
   <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap" title="Code Size">
@@ -58,11 +59,6 @@
   <!-- Open Issues BankAccount-OOP-Encap -->
   <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap/issues" title="Open Issues">
     <img src="https://img.shields.io/github/issues/Mostafa-SAID7/BankAccount-OOP-Encap" alt="Open Issues" />
-  </a>
-
-  <!-- Stars BankAccount-OOP-Encap -->
-  <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap/stargazers" title="Stars">
-    <img src="https://img.shields.io/github/stars/Mostafa-SAID7/BankAccount-OOP-Encap" alt="Stars" />
   </a>
 
 <!-- Total Forks (manual badge, styled) -->
