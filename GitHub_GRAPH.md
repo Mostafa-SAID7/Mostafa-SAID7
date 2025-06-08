@@ -9,7 +9,7 @@
 
   <!-- Total Public Repositories -->
   <a href="https://github.com/Mostafa-SAID7?tab=repositories" title="Public Repositories">
-    <img src="https://img.shields.io/github/public-repos/Mostafa-SAID7" alt="Public Repositories" />
+  <img src="https://img.shields.io/badge/Public%20Repos-9-2d3748?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27" alt="Public Repositories" />
   </a>
 
   <!-- Total Stars across all repos -->
@@ -17,19 +17,19 @@
     <img src="https://img.shields.io/github/stars/Mostafa-SAID7?style=social" alt="GitHub Stars" />
   </a>
 
-  <!-- Commit Activity (last year) -->
-  <a href="https://github.com/Mostafa-SAID7" title="Commit Activity (last year)">
-    <img src="https://img.shields.io/github/commit-activity/y/Mostafa-SAID7" alt="Commit Activity" />
-  </a>
+ <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap/commits" title="Commit Activity - BankAccount-OOP-Encap">
+  <img src="https://img.shields.io/github/commit-activity/y/Mostafa-SAID7/BankAccount-OOP-Encap" alt="Commit Activity" />
+</a>
 
 </p>
 
 <p align="center">
 
-  <!-- Top Programming Language (overall) -->
-  <a href="https://github.com/Mostafa-SAID7?tab=repositories" title="Top Programming Language">
-    <img src="https://img.shields.io/github/languages/top/Mostafa-SAID7" alt="Top Language" />
-  </a>
+ <!-- Top Language (from your BankAccount-OOP-Encap repo) -->
+<a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap" title="Top Language in BankAccount-OOP-Encap">
+<img src="https://img.shields.io/badge/top%20language-C%23-blue?style=for-the-badge&logo=csharp" alt="Top Language" />
+</a>
+
 
   <!-- Largest Repository Size (BankAccount-OOP-Encap) -->
   <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap" title="Repository Size">
@@ -65,19 +65,25 @@
     <img src="https://img.shields.io/github/stars/Mostafa-SAID7/BankAccount-OOP-Encap" alt="Stars" />
   </a>
 
-  <!-- Forks BankAccount-OOP-Encap -->
-  <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap/network/members" title="Forks">
-    <img src="https://img.shields.io/github/forks/Mostafa-SAID7/BankAccount-OOP-Encap" alt="Forks" />
-  </a>
+<!-- Total Forks (manual badge, styled) -->
+
+  <img src="https://img.shields.io/badge/total%20forks-4-blue?style=for-the-badge&logo=github" alt="Total Forks Across All Repos" />
+
+
+
+
+
+
 
 </p>
 
 <p align="center">
 
-  <!-- Profile Visitor Count -->
-  <img src="https://visitor-badge.glitch.me/badge?page_id=Mostafa-SAID7.Mostafa-SAID7" alt="Profile Visitor Count" />
+  <!-- Profile Visitor Count (stable with CountAPI) -->
+  <img src="https://count.getloli.com/get/@Mostafa-SAID7.readme?theme=rule34" alt="Profile Visitor Count" />
 
 </p>
+
 
   
 
