@@ -122,17 +122,40 @@ This work is licensed under the [MIT License](https://opensource.org/licenses/MI
     <tr>
       <td align="center" valign="middle">
         <!-- Profile Visitor Count (stable with CountAPI) -->
-        <img src="https://count.getloli.com/get/@Mostafa-SAID7.readme?theme=rule34" alt="Profile Visitor Count" />
+  <img src="https://visitor-badge.glitch.me/badge?page_id=Mostafa-SAID7.Mostafa-SAID7&left_color=green&right_color=red" alt="Visitor Count" />
       </td>
       <td align="center" valign="middle">
         <!-- GitHub Streak -->
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mostafa-SAID7&theme=dark&hide_border=true" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mostafa-SAID7&theme=dark&hide_border=true" alt="GitHub Streak" />
       </td>
     </tr>
   </table>
 </p>
 
 ---
+## 📊 Project Activity & Contributors
+
+<p align="center">
+  <!-- Contributors -->
+  <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap/graphs/contributors" title="Contributors">
+    <img src="https://img.shields.io/github/contributors/Mostafa-SAID7/BankAccount-OOP-Encap?style=for-the-badge&logo=github" alt="Contributors" />
+  </a>
+
+  <!-- Commit Activity -->
+  <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap/graphs/commit-activity" title="Commit Activity">
+    <img src="https://img.shields.io/badge/Commit%20Activity-View%20Graph-blue?style=for-the-badge&logo=github" alt="Commit Activity" />
+  </a>
+
+  <!-- Code Frequency -->
+  <a href="https://github.com/Mostafa-SAID7/BankAccount-OOP-Encap/graphs/code-frequency" title="Code Frequency">
+    <img src="https://img.shields.io/badge/Code%20Frequency-View%20Graph-blueviolet?style=for-the-badge&logo=github" alt="Code Frequency" />
+  </a>
+</p>
+
+---
+
+> 📈 You can explore weekly commit stats, top contributors, and code frequency over time via the links above.
+
 
 <p align="center" style="font-style: italic; color: #666;">
   Made with ❤️ by <strong>Mostafa Said</strong>
