@@ -109,12 +109,6 @@
 
 ---
 
-## 📝 License
-
-This work is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
----
-
 ##### Thank you for visiting my profile!  
 
 <p align="center">
