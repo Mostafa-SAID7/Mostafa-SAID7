@@ -40,7 +40,7 @@
 
 ## 🧊 Future Tech Stack
 
-<table width="100%" cellpadding="15" cellspacing="0" style="table-layout: fixed;">
+<table align="center" width="100%" cellpadding="15" cellspacing="0" style="table-layout: fixed;">
   <tr>
     <td valign="top" width="25%" align="center">
       <h3>🧠 Languages</h3>
