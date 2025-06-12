@@ -88,7 +88,7 @@
 
 <table width="100%" cellpadding="15" cellspacing="0" style="table-layout: fixed;">
   <tr>
-    <td width="50%" valign="top">
+    <td align="center"  width="50%" valign="top">
       <h3 align="center">🌱 Currently Learning</h3>
       <ul style="max-width: 400px; margin: auto;">
         <li>Advanced React and Angular concepts</li>
@@ -96,7 +96,7 @@
         <li>Cloud deployment on Azure and AWS</li>
       </ul>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" align="center" valign="top">
       <h3 align="center">🎯 My Goals for 2025</h3>
       <ul style="max-width: 400px; margin: auto;">
         <li>✅ Contribute to impactful open-source projects</li>
