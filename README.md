@@ -146,10 +146,9 @@
   </a>
 </p>
 
----
-
-> 📈 You can explore weekly commit stats, top contributors, and code frequency over time via the links above.
-
+<p align="center" style="font-style: italic; color: #666;">
+📈 You can explore weekly commit stats, top contributors, and code frequency over time via the links above.
+</p>
 
 <p align="center" style="font-style: italic; color: #666;">
   Made with ❤️ by <strong>Mostafa Said</strong>
