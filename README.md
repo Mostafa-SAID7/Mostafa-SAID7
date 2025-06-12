@@ -86,7 +86,7 @@
 
 ---
 
-<table width="100%" cellpadding="15" cellspacing="0" style="table-layout: fixed;">
+<table width="100%" align="center" cellpadding="15" cellspacing="0" style="table-layout: fixed;">
   <tr>
     <td align="center"  width="50%" valign="top">
       <h3 align="center">🌱 Currently Learning</h3>
