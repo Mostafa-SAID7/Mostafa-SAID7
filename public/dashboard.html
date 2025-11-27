@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Analytics Dashboard | Mostafa Said - GitHub</title>
+    <meta name="description" content="Comprehensive GitHub analytics dashboard with charts, stats, and insights">
+
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/components.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">📊 Analytics Dashboard</h1>
+                <nav class="nav">
+                    <a href="/" class="nav-link">Home</a>
+                    <a href="/dashboard.html" class="nav-link">Dashboard</a>
+                    <a href="https://github.com/Mostafa-SAID7" target="_blank" class="nav-link">GitHub</a>
+                    <button class="theme-toggle" aria-label="Toggle theme"></button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container" style="padding: 40px 24px;">
+
+        <!-- Page Title -->
+        <div class="hero" style="padding: 2rem 0;">
+            <h2 class="hero-title" style="font-size: 2.25rem;">GitHub Analytics Dashboard</h2>
+            <p class="hero-subtitle">Comprehensive insights into my coding activity and contributions</p>
+        </div>
+
+        <!-- Stats Grid -->
+        <section style="margin-bottom: 3rem;">
+            <div class="grid grid-cols-4" id="stats-grid">
+                <div class="skeleton skeleton-chart"></div>
+                <div class="skeleton skeleton-chart"></div>
+                <div class="skeleton skeleton-chart"></div>
+                <div class="skeleton skeleton-chart"></div>
+            </div>
+        </section>
+
+        <!-- Charts Grid -->
+        <div class="grid grid-cols-2">
+
+            <!-- Commit Activity -->
+            <div class="chart-wrapper">
+                <h3 class="chart-title">📈 Commit Activity (60 Days)</h3>
+                <div style="position: relative; height: 300px;">
+                    <canvas id="commitChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Languages Distribution -->
+            <div class="chart-wrapper">
+                <h3 class="chart-title">💻 Languages Distribution</h3>
+                <div style="position: relative; height: 300px;">
+                    <canvas id="languagesChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Activity Pattern -->
+            <div class="chart-wrapper">
+                <h3 class="chart-title">🕐 Activity Pattern by Day</h3>
+                <div style="position: relative; height: 300px;">
+                    <canvas id="activityPatternChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Top Repositories -->
+            <div class="chart-wrapper">
+                <h3 class="chart-title">⭐ Top Repositories</h3>
+                <div style="position: relative; height: 300px;">
+                    <canvas id="repoStatsChart"></canvas>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Recent Repositories -->
+        <section style="margin-top: 3rem;">
+            <h3 style="font-size: 1.875rem; font-weight: 600; margin-bottom: 1.5rem;">
+                🔥 Recent Repositories
+            </h3>
+            <div id="recent-repos" class="grid grid-cols-1">
+                <!-- Recent repos will be loaded here -->
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mostafa Said. Powered by GitHub API & Chart.js</p>
+        </div>
+    </footer>
+
+    <script src="/js/config.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="/js/theme.js"></script>
+    <script src="/js/charts.js"></script>
+
+    <script>
+        let charts = {};
+
+        async function init() {
+            try {
+                // Load all data
+                await Promise.all([
+                    loadStats(),
+                    loadCharts(),
+                    loadRecentRepos(),
+                ]);
+
+                utils.showToast('Dashboard loaded successfully!', 'success');
+            } catch (error) {
+                console.error('Dashboard initialization error:', error);
+                utils.showToast('Some data failed to load', 'warning');
+            }
+        }
+
+        async function loadStats() {
+            const statsGrid = document.getElementById('stats-grid');
+
+            try {
+                const stats = await api.getStats();
+
+                statsGrid.innerHTML = `
+          <div class="stat-card">
+            <span class="stat-value">${utils.formatCount(stats.totalRepos)}</span>
+            <span class="stat-label">Repositories</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">${utils.formatCount(stats.totalStars)}</span>
+            <span class="stat-label">Total Stars</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">${utils.formatCount(stats.totalForks)}</span>
+            <span class="stat-label">Total Forks</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">${Object.keys(stats.languages).length}</span>
+            <span class="stat-label">Languages</span>
+          </div>
+        `;
+
+                // Animate numbers
+                document.querySelectorAll('.stat-value').forEach((el, i) => {
+                    const value = [stats.totalRepos, stats.totalStars, stats.totalForks, Object.keys(stats.languages).length][i];
+                    utils.animateNumber(el, value, 1500);
+                });
+
+            } catch (error) {
+                statsGrid.innerHTML = '<div class="error">Failed to load stats</div>';
+            }
+        }
+
+        async function loadCharts() {
+            try {
+                const [commitData, stats] = await Promise.all([
+                    api.getCommitActivity(60),
+                    api.getStats(),
+                ]);
+
+                // Commit Activity Chart
+                const commitCanvas = document.getElementById('commitChart');
+                charts.commit = chartUtils.createCommitChart(commitCanvas, commitData);
+
+                // Languages Chart
+                const languagesCanvas = document.getElementById('languagesChart');
+                charts.languages = chartUtils.createLanguagesChart(languagesCanvas, stats.languages);
+
+                // Activity Pattern Chart
+                const patternCanvas = document.getElementById('activityPatternChart');
+                charts.pattern = chartUtils.createActivityPatternChart(patternCanvas, commitData);
+
+                // Repo Stats Chart
+                const repoCanvas = document.getElementById('repoStatsChart');
+                charts.repoStats = chartUtils.createRepoStatsChart(repoCanvas, stats.recentRepos);
+
+            } catch (error) {
+                console.error('Failed to load charts:', error);
+            }
+        }
+
+        async function loadRecentRepos() {
+            const container = document.getElementById('recent-repos');
+
+            try {
+                const stats = await api.getStats();
+                const repos = stats.recentRepos;
+
+                container.innerHTML = repos.map(repo => `
+          <div class="card">
+            <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+              <div>
+                <h4 style="font-size: 1.25rem; font-weight: 600; color: var(--accent-primary); margin-bottom: 0.5rem;">
+                  ${repo.name}
+                </h4>
+                <p class="card-text" style="margin-bottom: 1rem;">
+                  ${repo.description || 'No description provided'}
+                </p>
+              </div>
+              ${repo.language ? `
+                <span class="badge badge-primary">${repo.language}</span>
+              ` : ''}
+            </div>
+            <div style="display: flex; gap: 1.5rem; color: var(--text-tertiary); font-size: 0.875rem;">
+              <span title="Stars">⭐ ${repo.stars}</span>
+              <span title="Forks">🔱 ${repo.forks}</span>
+              <span title="Last updated">📅 ${utils.timeAgo(repo.updatedAt)}</span>
+            </div>
+          </div>
+        `).join('');
+
+            } catch (error) {
+                container.innerHTML = '<div class="error">Failed to load recent repositories</div>';
+            }
+        }
+
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+
+</body>
+
+</html>

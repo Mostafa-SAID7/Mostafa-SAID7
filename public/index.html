@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Mostafa Said | GitHub Profile Dashboard</title>
+  <meta name="description" content="GitHub profile dashboard for Mostafa Said - Full Stack Developer. View commit activity, repository stats, and contribution analytics.">
+  <meta name="author" content="Mostafa Said">
+  <meta name="keywords" content="GitHub, Profile, Dashboard, Developer, Full Stack, Analytics">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mostafa Said | GitHub Profile Dashboard">
+  <meta property="og:description" content="View my GitHub activity, stats, and contributions">
+  <meta property="og:type" content="website">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/css/variables.css">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/components.css">
+  
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <h1 class="logo">📊 GitHub Dashboard</h1>
+        <nav class="nav">
+          <a href="/" class="nav-link">Home</a>
+          <a href="/dashboard.html" class="nav-link">Dashboard</a>
+          <a href="https://github.com/Mostafa-SAID7" target="_blank" class="nav-link">GitHub</a>
+          <button class="theme-toggle" aria-label="Toggle theme"></button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2 class="hero-title">Welcome to My GitHub Dashboard</h2>
+      <p class="hero-subtitle">Real-time analytics and visualizations of my GitHub activity</p>
+      <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 2rem;">
+        <a href="/dashboard.html" class="btn btn-primary">View Full Dashboard</a>
+        <a href="https://github.com/Mostafa-SAID7" target="_blank" class="btn btn-secondary">Visit GitHub Profile</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="container" style="padding:40px 24px;">
+    
+    <!-- Stats Overview -->
+    <section id="stats-section" style="margin-bottom: 3rem;">
+      <h3 style="font-size: 1.875rem; font-weight: 600; margin-bottom: 1.5rem; text-align: center;">
+        Quick Stats
+      </h3>
+      <div class="grid grid-cols-4" id="stats-grid">
+        <!-- Stats will be loaded here -->
+      </div>
+    </section>
+
+    <!-- Commit Activity Chart -->
+    <section id="activity-section">
+      <div class="chart-wrapper">
+        <h3 class="chart-title">📈 Commit Activity (Last 30 Days)</h3>
+        <div style="position: relative; height: 300px;">
+          <canvas id="commitChart" class="chart-canvas"></canvas>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Mostafa Said. Built with ❤️ and modern web technologies.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/js/config.js"></script>
+  <script src="/js/utils.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/theme.js"></script>
+  <script src="/js/charts.js"></script>
+  
+  <script>
+    // Initialize the page
+    let commitChart = null;
+
+    async function init() {
+      try {
+        // Load stats
+        await loadStats();
+        
+        // Load commit activity
+        await loadCommitActivity();
+        
+      } catch (error) {
+        console.error('Initialization error:', error);
+        utils.showToast('Failed to load data', 'error');
+      }
+    }
+
+    async function loadStats() {
+      const statsGrid = document.getElementById('stats-grid');
+      statsGrid.innerHTML = utils.createSkeleton('chart');
+
+      try {
+        const stats = await api.getStats();
+        
+        statsGrid.innerHTML = `
+          <div class="stat-card">
+            <span class="stat-value">${utils.formatCount(stats.totalRepos)}</span>
+            <span class="stat-label">Repositories</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">${utils.formatCount(stats.totalStars)}</span>
+            <span class="stat-label">Total Stars</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">${utils.formatCount(stats.totalForks)}</span>
+            <span class="stat-label">Total Forks</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">${Object.keys(stats.languages).length}</span>
+            <span class="stat-label">Languages</span>
+          </div>
+        `;
+      } catch (error) {
+        statsGrid.innerHTML = '<div class="error">Failed to load stats</div>';
+      }
+    }
+
+    async function loadCommitActivity() {
+      const canvas = document.getElementById('commitChart');
+      const section = document.getElementById('activity-section');
+
+      try {
+        const data = await api.getCommitActivity(30);
+        
+        // Destroy existing chart
+        if (commitChart) {
+          commitChart.destroy();
+        }
+        
+        // Create new chart
+        commitChart = chartUtils.createCommitChart(canvas, data);
+        
+      } catch (error) {
+        section.querySelector('.chart-wrapper').innerHTML = 
+          utils.showError(section, 'Failed to load commit activity');
+      }
+    }
+
+    // Initialize on page load
+    document.addEventListener('DOMContentLoaded', init);
+  </script>
+
+</body>
+</html>
