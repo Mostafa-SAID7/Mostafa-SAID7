@@ -180,19 +180,19 @@ const mostafa = {
 
 </div>
 
+## 🏆 GitHub Trophies
 <!-- Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-## 🏆 GitHub Trophies
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Mostafa-SAID7&theme=algolia&no-frame=true&no-bg=true&row=1&column=7"/>
 </div>
 
+## 🎯 2025 Roadmap
 <!-- Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-## 🎯 2025 Roadmap
 
 <div align="center">
 
@@ -205,10 +205,10 @@ const mostafa = {
 
 </div>
 
+## 🤝 Connect With Me
 <!-- Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-## 🤝 Connect With Me
 
 <div align="center">
 
@@ -248,10 +248,10 @@ const mostafa = {
 
 </div>
 
+## 🐍 Contribution Snake
 <!-- Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-## 🐍 Contribution Snake
 
 <div align="center">
   <picture>
@@ -264,9 +264,9 @@ const mostafa = {
 <!-- Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
+### 💭 Random Dev Quote
 <div align="center">
 
-### 💭 Random Dev Quote
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote"/>
 
@@ -285,4 +285,3 @@ const mostafa = {
 
 <!-- Footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer"/>
-]]>
