@@ -48,9 +48,6 @@
   <img src="https://img.shields.io/badge/💼%20LINKEDIN-Connect-0077B5?style=for-the-badge&logoColor=white"/>
 </a>
 
-</div>
-
-<br/>
 
 <!-- Animated Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -59,54 +56,57 @@
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> **About Me**
 
-<img align="right" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" width="300"/>
+<br>
 
+<table>
+  <tr>
+    <td width="30%" valign="center">
+      <div align="center">
+        <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" width="100%"/>
+        <br><br>
+        <a href="https://github.com/Mostafa-SAID7">
+          <img src="https://img.shields.io/github/followers/Mostafa-SAID7?label=Followers&style=social"/>
+        </a>
+      </div>
+    </td>
+    <td width="70%" valign="top">
+      <h3>👨‍💻 Full Stack Developer & Tech Enthusiast</h3>
+      <p>
+        I'm <b>Mostafa Said</b>, a passionate software engineer from Egypt. I love building scalable web applications and exploring new technologies. 
+        My goal is to create impactful software that solves real-world problems.
+      </p>
+
+      <!-- Dynamic Typing SVG -->
+      <a href="https://git.io/typing-svg">
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2196F3&width=435&lines=I'm+currently+working+on+Cloud+Native+Apps;I'm+learning+Advanced+System+Design;Ask+me+about+JavaScript+and+.NET" alt="Typing SVG" />
+      </a>
+
+      <br>
+
+      <!-- Social Icons Row -->
+      <div align="left">
+        <a href="https://linkedin.com/in/mostafa-said-595648316"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25"/></a>
+        <a href="mailto:m.ssaid356@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="25"/></a>
+      </div>
+      
 ```typescript
-class SoftwareEngineer {
-  name: string = "Mostafa Said";
-  title: string = "Full Stack Developer";
-  location: string = "Egypt 🇪🇬";
-  email: string = "m.ssaid356@gmail.com";
-  
-  skills: TechStack = {
-    languages: ["C#", "TypeScript", "JavaScript", "Python", "PHP"],
-    frontend: {
-      frameworks: ["React", "Angular", "Vue.js", "Next.js"],
-      styling: ["Tailwind CSS", "SASS", "Material UI", "Bootstrap"]
-    },
-    backend: {
-      runtime: ["Node.js", ".NET Core", "ASP.NET"],
-      api: ["REST", "GraphQL", "gRPC"]
-    },
-    databases: ["SQL Server", "PostgreSQL", "MongoDB", "Redis"],
-    devOps: ["Docker", "Kubernetes", "Azure", "AWS", "CI/CD"],
-    architecture: ["Microservices", "Clean Architecture", "DDD"]
-  };
-
-  currentlyExploring: string[] = [
-    "System Design at Scale",
-    "Cloud Native Development",
-    "AI/ML Integration"
-  ];
-
-  highlights: string[] = [
-    "🚀 Built production-ready SaaS applications",
-    "📊 Created interactive GitHub analytics dashboard",
-    "🎨 Expert in modern UI/UX with glassmorphism & animations",
-    "⚡ Performance optimization enthusiast",
-    "🔒 Security-first development approach"
-  ];
-
-  lifePhilosophy(): string {
-    return "Clean code is not written by following rules. " +
-           "It's written by developers who care.";
-  }
-
-  getInTouch(): void {
-    window.open("mailto:m.ssaid356@gmail.com");
-  }
-}
+const mostafa = {
+  pronouns: "He" | "Him",
+  code: ["TypeScript", "C#", "Python", "PHP"],
+  askMeAbout: ["Web Dev", "Tech", "Architecture"],
+  technologies: {
+    frontEnd: ["Angular", "React", "Next.js", "Tailwind"],
+    backEnd: [".NET", "Node.js", "Express"],
+    databases: ["SQL Server", "PostgreSQL", "MongoDB"]
+  },
+  architecture: ["Microservices", "Serverless", "Clean Architecture"],
+  currentFocus: "Mastering Cloud Native Architecture",
+  funFact: "I turn coffee into code ☕"
+};
 ```
+    </td>
+  </tr>
+</table>
 
 <br clear="both"/>
 
