@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <!-- SEO Meta Tags -->
   <title>Mostafa Said | GitHub Profile Dashboard</title>
-  <meta name="description" content="GitHub profile dashboard for Mostafa Said - Full Stack Developer. View commit activity, repository stats, and contribution analytics.">
+  <meta name="description"
+    content="GitHub profile dashboard for Mostafa Said - Full Stack Developer. View commit activity, repository stats, and contribution analytics.">
   <meta name="author" content="Mostafa Said">
   <meta name="keywords" content="GitHub, Profile, Dashboard, Developer, Full Stack, Analytics">
-  
+
   <!-- Open Graph -->
   <meta property="og:title" content="Mostafa Said | GitHub Profile Dashboard">
   <meta property="og:description" content="View my GitHub activity, stats, and contributions">
   <meta property="og:type" content="website">
-  
+
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
-  
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+
   <!-- Stylesheets -->
   <link rel="stylesheet" href="/css/variables.css">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/components.css">
-  
+
   <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
+
 <body>
-  
+
   <!-- Header -->
   <header class="header">
     <div class="container">
@@ -58,7 +62,7 @@
 
   <!-- Main Content -->
   <main class="container" style="padding:40px 24px;">
-    
+
     <!-- Stats Overview -->
     <section id="stats-section" style="margin-bottom: 3rem;">
       <h3 style="font-size: 1.875rem; font-weight: 600; margin-bottom: 1.5rem; text-align: center;">
@@ -94,7 +98,8 @@
   <script src="/js/api.js"></script>
   <script src="/js/theme.js"></script>
   <script src="/js/charts.js"></script>
-  
+  <script src="/js/reveal.js"></script>
+
   <script>
     // Initialize the page
     let commitChart = null;
@@ -103,10 +108,10 @@
       try {
         // Load stats
         await loadStats();
-        
+
         // Load commit activity
         await loadCommitActivity();
-        
+
       } catch (error) {
         console.error('Initialization error:', error);
         utils.showToast('Failed to load data', 'error');
@@ -119,7 +124,7 @@
 
       try {
         const stats = await api.getStats();
-        
+
         statsGrid.innerHTML = `
           <div class="stat-card">
             <span class="stat-value">${utils.formatCount(stats.totalRepos)}</span>
@@ -149,17 +154,17 @@
 
       try {
         const data = await api.getCommitActivity(30);
-        
+
         // Destroy existing chart
         if (commitChart) {
           commitChart.destroy();
         }
-        
+
         // Create new chart
         commitChart = chartUtils.createCommitChart(canvas, data);
-        
+
       } catch (error) {
-        section.querySelector('.chart-wrapper').innerHTML = 
+        section.querySelector('.chart-wrapper').innerHTML =
           utils.showError(section, 'Failed to load commit activity');
       }
     }
@@ -169,4 +174,5 @@
   </script>
 
 </body>
+
 </html>

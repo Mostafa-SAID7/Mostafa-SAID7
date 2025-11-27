@@ -102,138 +102,121 @@
 
     </main>
 
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Mostafa Said. Powered by GitHub API & Chart.js</p>
-        </div>
-    </footer>
+    // Load all data
+    await Promise.all([
+    loadStats(),
+    loadCharts(),
+    loadRecentRepos(),
+    ]);
 
-    <script src="/js/config.js"></script>
-    <script src="/js/utils.js"></script>
-    <script src="/js/api.js"></script>
-    <script src="/js/theme.js"></script>
-    <script src="/js/charts.js"></script>
+    utils.showToast('Dashboard loaded successfully!', 'success');
+    } catch (error) {
+    console.error('Dashboard initialization error:', error);
+    utils.showToast('Some data failed to load', 'warning');
+    }
+    }
 
-    <script>
-        let charts = {};
+    async function loadStats() {
+    const statsGrid = document.getElementById('stats-grid');
 
-        async function init() {
-            try {
-                // Load all data
-                await Promise.all([
-                    loadStats(),
-                    loadCharts(),
-                    loadRecentRepos(),
-                ]);
+    try {
+    const stats = await api.getStats();
 
-                utils.showToast('Dashboard loaded successfully!', 'success');
-            } catch (error) {
-                console.error('Dashboard initialization error:', error);
-                utils.showToast('Some data failed to load', 'warning');
-            }
-        }
+    statsGrid.innerHTML = `
+    <div class="stat-card">
+        <span class="stat-value">${utils.formatCount(stats.totalRepos)}</span>
+        <span class="stat-label">Repositories</span>
+    </div>
+    <div class="stat-card">
+        <span class="stat-value">${utils.formatCount(stats.totalStars)}</span>
+        <span class="stat-label">Total Stars</span>
+    </div>
+    <div class="stat-card">
+        <span class="stat-value">${utils.formatCount(stats.totalForks)}</span>
+        <span class="stat-label">Total Forks</span>
+    </div>
+    <div class="stat-card">
+        <span class="stat-value">${Object.keys(stats.languages).length}</span>
+        <span class="stat-label">Languages</span>
+    </div>
+    `;
 
-        async function loadStats() {
-            const statsGrid = document.getElementById('stats-grid');
+    // Animate numbers
+    document.querySelectorAll('.stat-value').forEach((el, i) => {
+    const value = [stats.totalRepos, stats.totalStars, stats.totalForks, Object.keys(stats.languages).length][i];
+    utils.animateNumber(el, value, 1500);
+    });
 
-            try {
-                const stats = await api.getStats();
+    } catch (error) {
+    statsGrid.innerHTML = '<div class="error">Failed to load stats</div>';
+    }
+    }
 
-                statsGrid.innerHTML = `
-          <div class="stat-card">
-            <span class="stat-value">${utils.formatCount(stats.totalRepos)}</span>
-            <span class="stat-label">Repositories</span>
-          </div>
-          <div class="stat-card">
-            <span class="stat-value">${utils.formatCount(stats.totalStars)}</span>
-            <span class="stat-label">Total Stars</span>
-          </div>
-          <div class="stat-card">
-            <span class="stat-value">${utils.formatCount(stats.totalForks)}</span>
-            <span class="stat-label">Total Forks</span>
-          </div>
-          <div class="stat-card">
-            <span class="stat-value">${Object.keys(stats.languages).length}</span>
-            <span class="stat-label">Languages</span>
-          </div>
-        `;
+    async function loadCharts() {
+    try {
+    const [commitData, stats] = await Promise.all([
+    api.getCommitActivity(60),
+    api.getStats(),
+    ]);
 
-                // Animate numbers
-                document.querySelectorAll('.stat-value').forEach((el, i) => {
-                    const value = [stats.totalRepos, stats.totalStars, stats.totalForks, Object.keys(stats.languages).length][i];
-                    utils.animateNumber(el, value, 1500);
-                });
+    // Commit Activity Chart
+    const commitCanvas = document.getElementById('commitChart');
+    charts.commit = chartUtils.createCommitChart(commitCanvas, commitData);
 
-            } catch (error) {
-                statsGrid.innerHTML = '<div class="error">Failed to load stats</div>';
-            }
-        }
+    // Languages Chart
+    const languagesCanvas = document.getElementById('languagesChart');
+    charts.languages = chartUtils.createLanguagesChart(languagesCanvas, stats.languages);
 
-        async function loadCharts() {
-            try {
-                const [commitData, stats] = await Promise.all([
-                    api.getCommitActivity(60),
-                    api.getStats(),
-                ]);
+    // Activity Pattern Chart
+    const patternCanvas = document.getElementById('activityPatternChart');
+    charts.pattern = chartUtils.createActivityPatternChart(patternCanvas, commitData);
 
-                // Commit Activity Chart
-                const commitCanvas = document.getElementById('commitChart');
-                charts.commit = chartUtils.createCommitChart(commitCanvas, commitData);
+    // Repo Stats Chart
+    const repoCanvas = document.getElementById('repoStatsChart');
+    charts.repoStats = chartUtils.createRepoStatsChart(repoCanvas, stats.recentRepos);
 
-                // Languages Chart
-                const languagesCanvas = document.getElementById('languagesChart');
-                charts.languages = chartUtils.createLanguagesChart(languagesCanvas, stats.languages);
+    } catch (error) {
+    console.error('Failed to load charts:', error);
+    }
+    }
 
-                // Activity Pattern Chart
-                const patternCanvas = document.getElementById('activityPatternChart');
-                charts.pattern = chartUtils.createActivityPatternChart(patternCanvas, commitData);
+    async function loadRecentRepos() {
+    const container = document.getElementById('recent-repos');
 
-                // Repo Stats Chart
-                const repoCanvas = document.getElementById('repoStatsChart');
-                charts.repoStats = chartUtils.createRepoStatsChart(repoCanvas, stats.recentRepos);
+    try {
+    const stats = await api.getStats();
+    const repos = stats.recentRepos;
 
-            } catch (error) {
-                console.error('Failed to load charts:', error);
-            }
-        }
-
-        async function loadRecentRepos() {
-            const container = document.getElementById('recent-repos');
-
-            try {
-                const stats = await api.getStats();
-                const repos = stats.recentRepos;
-
-                container.innerHTML = repos.map(repo => `
-          <div class="card">
-            <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
-              <div>
+    container.innerHTML = repos.map(repo => `
+    <div class="card">
+        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+            <div>
                 <h4 style="font-size: 1.25rem; font-weight: 600; color: var(--accent-primary); margin-bottom: 0.5rem;">
-                  ${repo.name}
+                    ${repo.name}
                 </h4>
                 <p class="card-text" style="margin-bottom: 1rem;">
-                  ${repo.description || 'No description provided'}
+                    ${repo.description || 'No description provided'}
                 </p>
-              </div>
-              ${repo.language ? `
-                <span class="badge badge-primary">${repo.language}</span>
-              ` : ''}
             </div>
-            <div style="display: flex; gap: 1.5rem; color: var(--text-tertiary); font-size: 0.875rem;">
-              <span title="Stars">⭐ ${repo.stars}</span>
-              <span title="Forks">🔱 ${repo.forks}</span>
-              <span title="Last updated">📅 ${utils.timeAgo(repo.updatedAt)}</span>
-            </div>
-          </div>
-        `).join('');
+            ${repo.language ? `
+            <span class="badge badge-primary">${repo.language}</span>
+            ` : ''}
+        </div>
+        <div style="display: flex; gap: 1.5rem; color: var(--text-tertiary); font-size: 0.875rem;">
+            <span title="Stars">⭐ ${repo.stars}</span>
+            <span title="Forks">🔱 ${repo.forks}</span>
+            <span title="Last updated">📅 ${utils.timeAgo(repo.updatedAt)}</span>
+        </div>
+    </div>
+    `).join('');
 
-            } catch (error) {
-                container.innerHTML = '<div class="error">Failed to load recent repositories</div>';
-            }
-        }
+    } catch (error) {
+    container.innerHTML = '<div class="error">Failed to load recent repositories</div>';
+    }
+    }
 
-        // Initialize on load
-        document.addEventListener('DOMContentLoaded', init);
+    // Initialize on load
+    document.addEventListener('DOMContentLoaded', init);
     </script>
 
 </body>

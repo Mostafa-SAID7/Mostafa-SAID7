@@ -1,117 +1,143 @@
 /**
  * CSS Custom Properties (Variables)
- * Modern theming system with dark and light modes
+ * Microsoft Fluent Design System inspired theming
  */
 
 :root {
-  /* Color Palette - Dark Mode (Default) */
-  --bg-primary: #0d1117;
-  --bg-secondary: #161b22;
-  --bg-tertiary: #21262d;
-  --bg-accent: #283845;
-  
-  --text-primary: #ffffff;
-  --text-secondary: #c9d1d9;
-  --text-tertiary: #8b949e;
-  
-  --accent-primary: #00d9ff;
-  --accent-secondary: #6f42c1;
-  --accent-success: #2ea043;
-  --accent-warning: #ff9800;
-  --accent-danger: #ff6b6b;
-  
-  /* Gradients */
-  --gradient-primary: linear-gradient(135deg, #00d9ff 0%, #6f42c1 100%);
-  --gradient-secondary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --gradient-success: linear-gradient(135deg, #00d9ff 0%, #2ea043 100%);
-  
-  /* Glassmorphism */
-  --glass-bg: rgba(255, 255, 255, 0.05);
-  --glass-border: rgba(255, 255, 255, 0.1);
-  --glass-backdrop: blur(10px);
-  
-  /* Typography */
-  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  --font-mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
-  
-  --font-size-xs: 0.75rem;    /* 12px */
-  --font-size-sm: 0.875rem;   /* 14px */
-  --font-size-base: 1rem;     /* 16px */
-  --font-size-lg: 1.125rem;   /* 18px */
-  --font-size-xl: 1.25rem;    /* 20px */
-  --font-size-2xl: 1.5rem;    /* 24px */
-  --font-size-3xl: 1.875rem;  /* 30px */
-  --font-size-4xl: 2.25rem;   /* 36px */
-  
-  --font-weight-normal: 400;
-  --font-weight-medium: 500;
-  --font-weight-semibold: 600;
-  --font-weight-bold: 700;
-  
-  /* Spacing */
-  --space-xs: 0.25rem;   /* 4px */
-  --space-sm: 0.5rem;    /* 8px */
-  --space-md: 1rem;      /* 16px */
-  --space-lg: 1.5rem;    /* 24px */
-  --space-xl: 2rem;      /* 32px */
-  --space-2xl: 3rem;     /* 48px */
-  --space-3xl: 4rem;     /* 64px */
-  
-  /* Border Radius */
-  --radius-sm: 0.375rem;  /* 6px */
-  --radius-md: 0.5rem;    /* 8px */
-  --radius-lg: 0.75rem;   /* 12px */
-  --radius-xl: 1rem;      /* 16px */
-  --radius-2xl: 1.5rem;   /* 24px */
-  --radius-full: 9999px;
-  
-  /* Shadows */
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.6);
-  --shadow-glow: 0 0 20px rgba(0, 217, 255, 0.3);
-  
-  /* Transitions */
-  --transition-fast: 150ms ease-in-out;
-  --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  
-  /* Z-index layers */
-  --z-dropdown: 1000;
-  --z-sticky: 1020;
-  --z-fixed: 1030;
-  --z-modal-backdrop: 1040;
-  --z-modal: 1050;
-  --z-popover: 1060;
-  --z-tooltip: 1070;
-}
+    /* Color Palette - Dark Mode (Fluent Design) */
+    --bg-primary: #0a0a0a;
+    --bg-secondary: #1a1a1a;
+    --bg-tertiary: #252525;
+    --bg-accent: #2d2d2d;
+    --bg-elevated: #333333;
 
-/* Light Mode */
-[data-theme="light"] {
-  --bg-primary: #ffffff;
-  --bg-secondary: #f6f8fa;
-  --bg-tertiary: #eef2f5;
-  --bg-accent: #e8ecf0;
-  
-  --text-primary: #24292f;
-  --text-secondary: #57606a;
-  --text-tertiary: #6e7781;
-  
-  --glass-bg: rgba(255, 255, 255, 0.8);
-  --glass-border: rgba(0, 0, 0, 0.1);
-  
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.15);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
-}
+    --text-primary: #ffffff;
+    --text-secondary: #e1e1e1;
+    --text-tertiary: #a0a0a0;
+    --text-disabled: #6d6d6d;
 
-/* Responsive breakpoints (for JavaScript usage) */
-:root {
-  --breakpoint-sm: 640px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 1024px;
-  --breakpoint-xl: 1280px;
-  --breakpoint-2xl: 1536px;
+    --accent-primary: #0078d4;
+    --accent-primary-hover: #106ebe;
+    --accent-secondary: #8661c5;
+    --accent-success: #107c10;
+    --accent-warning: #ff8c00;
+    --accent-danger: #e81123;
+    --accent-info: #00b7c3;
+
+    /* Fluent Design - Acrylic Materials */
+    --acrylic-dark: rgba(26, 26, 26, 0.7);
+    --acrylic-light: rgba(255, 255, 255, 0.05);
+    --acrylic-border: rgba(255, 255, 255, 0.08);
+    --acrylic-backdrop: saturate(180%) blur(20px);
+
+    /* Fluent Design - Reveal Effects */
+    --reveal-glow: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(0, 120, 212, 0.1), transparent 50%);
+    --reveal-border: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(255, 255, 255, 0.4), transparent 50%);
+
+    /* Gradients - Fluent Inspired */
+    --gradient-primary: linear-gradient(135deg, #0078d4 0%, #8661c5 100%);
+    --gradient-secondary: linear-gradient(135deg, #8661c5 0%, #c239b3 100%);
+    --gradient-success: linear-gradient(135deg, #107c10 0%, #0078d4 100%);
+    --gradient-shimmer: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    --gradient-mesh:
+        radial-gradient(at 40% 20%, rgba(0, 120, 212, 0.15) 0px, transparent 50%),
+        radial-gradient(at 80% 0%, rgba(134, 97, 197, 0.15) 0px, transparent 50%),
+        radial-gradient(at 0% 50%, rgba(0, 183, 195, 0.15) 0px, transparent 50%);
+
+    /* Typography - Segoe UI Style */
+    --font-primary: 'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --font-mono: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+
+    --font-size-xs: 0.75rem;
+    /* 12px */
+    --font-size-sm: 0.875rem;
+    /* 14px */
+    --font-size-base: 1rem;
+    /* 16px */
+    --font-size-lg: 1.125rem;
+    /* 18px */
+    --font-size-xl: 1.25rem;
+    /* 20px */
+    --font-size-2xl: 1.5rem;
+    /* 24px */
+    --font-size-3xl: 1.875rem;
+    /* 30px */
+    --font-size-4xl: 2.25rem;
+    /* 36px */
+    --font-size-5xl: 3rem;
+    /* 48px */
+
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Spacing - 4px baseline */
+    --space-xs: 0.25rem;
+    /* 4px */
+    --space-sm: 0.5rem;
+    /* 8px */
+    --space-md: 1rem;
+    /* 16px */
+    --space-lg: 1.5rem;
+    /* 24px */
+    --space-xl: 2rem;
+    /* 32px */
+    --space-2xl: 3rem;
+    /* 48px */
+    --space-3xl: 4rem;
+    /* 64px */
+    --space-4xl: 6rem;
+    /* 96px */
+
+    /* Border Radius - Fluent Design */
+    --radius-sm: 0.25rem;
+    /* 4px */
+    --radius-md: 0.5rem;
+    /* 8px */
+    --radius-lg: 0.75rem;
+    /* 12px */
+    --radius-xl: 1rem;
+    /* 16px */
+    --radius-2xl: 1.5rem;
+    /* 24px */
+    --radius-full: 9999px;
+
+    /* Elevation System - Fluent Depth */
+    --elevation-0: none;
+    --elevation-1: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.132), 0 0.3px 0.9px 0 rgba(0, 0, 0, 0.108);
+    --elevation-2: 0 3.2px 7.2px 0 rgba(0, 0, 0, 0.132), 0 0.6px 1.8px 0 rgba(0, 0, 0, 0.108);
+    --elevation-4: 0 6.4px 14.4px 0 rgba(0, 0, 0, 0.132), 0 1.2px 3.6px 0 rgba(0, 0, 0, 0.108);
+    --elevation-8: 0 12.8px 28.8px 0 rgba(0, 0, 0, 0.132), 0 2.4px 7.2px 0 rgba(0, 0, 0, 0.108);
+    --elevation-16: 0 25.6px 57.6px 0 rgba(0, 0, 0, 0.22), 0 4.8px 14.4px 0 rgba(0, 0, 0, 0.18);
+    --elevation-glow: 0 0 40px rgba(0, 120, 212, 0.3);
+
+    /* Animation Curves - Fluent Motion */
+    --ease-standard: cubic-bezier(0.8, 0, 0.2, 1);
+    --ease-decelerate: cubic-bezier(0.1, 0.9, 0.2, 1);
+    --ease-accelerate: cubic-bezier(0.9, 0.1, 1, 0.2);
+    --ease-spring: cubic-bezier(0.5, 1.5, 0.5, 1);
+
+    /* Transition Durations - Fluent Timing */
+    --duration-instant: 50ms;
+    --duration-fast: 150ms;
+    --duration-normal: 250ms;
+    --duration-slow: 350ms;
+    --duration-slower: 500ms;
+
+    /* Transitions */
+    --transition-fast: var(--duration-fast) var(--ease-standard);
+    --transition-base: var(--duration-normal) var(--ease-standard);
+    --transition-slow: var(--duration-slow) var(--ease-decelerate);
+    --transition-spring: var(--duration-normal) var(--ease-spring);
+
+    /* Z-index layers */
+    --z-base: 0;
+    --z-dropdown: 1000;
+    --z-sticky: 1020;
+    --z-fixed: 1030;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
 }
