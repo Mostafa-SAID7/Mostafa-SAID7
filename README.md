@@ -295,62 +295,6 @@ class SoftwareEngineer {
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Mostafa-SAID7&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies"/>
 </div>
-
-<br/>
-
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<br/>
-
-## 🎯 **2025 Roadmap**
-
-<div align="center">
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           🚀 GOALS & MILESTONES                             │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   ✅ Master Cloud Architecture (Azure & AWS)                                │
-│   ✅ Build Scalable Microservices                                           │
-│   ✅ Create Interactive GitHub Analytics Dashboard                          │
-│   🔄 Contribute to Major Open Source Projects                               │
-│   🔄 Launch Production-Ready SaaS Application                               │
-│   ⏳ Achieve Cloud Certifications                                           │
-│   ⏳ Mentor Junior Developers                                               │
-│                                                                             │
-│   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   │
-│   Progress: ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 45%    │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-</div>
-
-<br/>
-
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<br/>
-
-## 📈 **Coding Activity**
-
-<div align="center">
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=@Mostafa_SAID&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF&layout=compact" alt="WakaTime Stats"/>
-
-</div>
-
-<br/>
-
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
 <br/>
 
 ## 🌐 **Connect & Collaborate**
