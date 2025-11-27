@@ -288,6 +288,39 @@ const mostafa = {
 <!-- Animated Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+<br/>
+
+## 📈 **Coding Activity**
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Mostafa-SAID7&theme=tokyonight&layout=compact&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" alt="WakaTime Stats" />
+</div>
+
+<br/>
+
+<!-- Animated Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<br/>
+
+## 🎯 **2025 Roadmap**
+
+<div align="center">
+
+| Quarter | Goal | Status |
+|:---:|:---|:---:|
+| **Q1** | 🏗️ Master Advanced System Design | 🔄 In Progress |
+| **Q2** | ☁️ Obtain CKA (Kubernetes) Certification | 💭 Planned |
+| **Q3** | 🤖 Build Large Scale AI/ML Pipeline | 💭 Planned |
+| **Q4** | 🚀 Launch SaaS Product | 💭 Planned |
+
+</div>
+
+<br/>
+
+<!-- Animated Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
 &nbsp;
 <a href="https://twitter.com/mostafa41226132" target="_blank">
   <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2"/>
