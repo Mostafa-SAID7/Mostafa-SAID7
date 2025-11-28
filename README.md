@@ -1,4 +1,4 @@
-<![CDATA[<!-- Animated Header -->
+<!-- Animated Header -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=MOSTAFA%20SAID&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20%7C%20Full%20Stack%20Developer&descAlignY=55&descSize=20"/>
 
 <div align="center">
@@ -217,7 +217,7 @@ const mostafa = {
 </a>
 &nbsp;
 <a href="https://twitter.com/mostafa41226132" target="_blank">
-  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
 </a>
 &nbsp;
 <a href="https://dev.to/mostafa_samir_fe0bbfde587" target="_blank">
@@ -282,6 +282,22 @@ const mostafa = {
 **Thanks for visiting! Let's build something amazing together! 🚀**
 
 </div>
+
+<!-- Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+## 🚀 About This Repository
+
+This repository serves as my **GitHub Profile README**, but it also houses a **Modern GitHub Profile Dashboard** application!
+
+This dashboard provides real-time analytics and visualizations of my GitHub activity, built with:
+- **Frontend**: HTML5, CSS3, JavaScript (Chart.js)
+- **Backend**: Node.js, Express
+- **Features**: Commit activity charts, repository stats, dark/light mode.
+
+### 🛠️ Run the Dashboard Locally
+
+Want to see the dashboard in action? Check out the [Setup Guide](docs/SETUP.md) to run it on your machine.
 
 <!-- Footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer"/>
